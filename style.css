@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 *{
     text-decoration: none;
+    /* background-color: #111; */
 }
 
 .container{
@@ -14,7 +16,7 @@ body{
 .container .phone{
     width: 400px;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:#111;
     margin: 0 auto;
 }
 
@@ -26,9 +28,10 @@ body{
     justify-content: space-around;
     padding: 5px 0px;
     align-items: center;
+    border-top: 1px solid  rgb(97, 94, 94);
 }
 .footer a{
-    color: #111;
+    color:white;
     font-size: 1.2rem;
     margin: 0 15px;
 }
@@ -108,3 +111,54 @@ body{
 .pv{
     padding: 2px 13px;
 }
+.edit-prof{
+    border: solid 1px rgb(97, 94, 94);
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+    margin:8px auto;
+    border-radius: 4px;
+cursor: pointer;
+}
+.text{
+    margin-left: 15px;
+    
+}
+.Highlights{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.story {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border:rgb(49, 47, 47) solid 1px;
+    background-color:rgb(49, 47, 47);
+}
+.story i{
+    margin:20px;
+}
+.one{
+     border:white solid 1px; 
+     background-color: #111;
+     cursor: pointer;
+}
+.story span{
+    margin: 12px;
+}
+.grid{
+    display: flex;
+    font-size: 1.6rem;
+    color: white;
+    justify-content:space-between;
+    margin: 20px auto;
+    width: 55%;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+
+    
